@@ -19,8 +19,14 @@ Triangle: Ashley/Tracy <br>
 X: Kiena <br>
 
 ## Proposal of machine learning model
-Supervised Learning
-
+Supervised Learning- Logistic Regression- binary result Delayed/Not delayed
 What variables will be used for the machine learning model?
+y= "Dep_Del15"
+X= other columns (Carrier and Airport columns need to be converted to numerical data)
+    Create a model with LogisticRegression().
+    Train the model with model.fit().
+    Make predictions with model.predict().
+    Validate the model with accuracy_score().
 
+ 
 
