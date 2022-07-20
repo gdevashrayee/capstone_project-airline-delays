@@ -1,6 +1,6 @@
 # capstone_project-airline-delays
 ## Project Overview
-In the present world the major components of a transportation system include a passenger airline. With time, we have evolved and improved the airline transportation system and operations. However, even in today's day and time, flight delays cause a lot of inconvinienece to our modern passengers. Every year approximaely x% of flight are delayed, costing passengers and the operations more than x $$$ in money an their time.
+In the present world the major components of a transportation system include a passenger airline. With time, we have evolved and improved the airline transportation system and operations. However, even in today's day and time, flight delays cause a lot of inconvinienece to our modern passengers. Every year approximately 25-30% of flights are delayed, costing passengers and the operations approximately more than $28 billion in money and their time.
 
 ## Purpose//Problem Statement
 The purpose of this project is to predict whether a given flight will be delayed, given the information of the scheduled departure.
