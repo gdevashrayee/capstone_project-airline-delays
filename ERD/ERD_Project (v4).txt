@@ -1,0 +1,32 @@
+Airports_list
+-
+ORIGIN_AIRPORT_ID int pk 
+DISPLAY_AIRPORT_NAME char
+ORIGIN_CITY_NAME varchar
+NAME varchar fk - airport_weather_2019.NAME
+
+ONTIME_REPORTING
+-
+MONTH int
+DAY_OF_MONTH int
+DATE date fk - airport_weather_2019.DATE
+DAY_OF_WEEK int
+ORIGIN_AIRPORT_ID int pk fk - Airports_list.ORIGIN_AIRPORT_ID
+DEST_AIRPORT_ID int
+DEST_CITY_NAME varchar
+DEP_TIME int
+DEP_DELAY_NEW int
+ARR_TIME int
+ARR_DELAY_NEW int
+DEP_DEL15 int
+CANCELLED int
+DISTANCE int
+DISTANCE_GROUP int
+
+airport_weather_2019
+-
+NAME varchar pk
+DATE date fk
+AWND float
+PRCP float
+SNOW float
