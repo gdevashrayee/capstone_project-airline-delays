@@ -7,7 +7,7 @@ The purpose of this project is to predict whether a given flight will be delayed
 1. Which airline has the most delayed flights?
 2. Which routes have the most delayed occurrences?
 3. Will flying time impact delay occurrences?
-4. Which date of the week will have the most delay? Weekend vs Weekday
+4. Which day of the week will have the most delay? Weekend vs Weekday
 5. Which airport (departure/arrival) is the worst?
 
 By conducting an analysis of flight times and metrics regarding airlines, day of travel, and airport arrivals/ departures we can predict what flights are more likely to experience delays. Once patterns are identified, solutions can be developed to address the issues.
