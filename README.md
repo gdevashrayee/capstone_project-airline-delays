@@ -32,6 +32,6 @@ Supervised Learning- Logistic Regression- binary result Delayed/Not delayed
     3) Make predictions with model.predict().
     4) Validate the model with accuracy_score().
 
- 
+Findings 
 https://docs.google.com/document/d/1wDWFbGyySyxjukZ4hM_MSWp8Lho7dYGGaTqHGtxpgMM/edit?usp=sharing
 
