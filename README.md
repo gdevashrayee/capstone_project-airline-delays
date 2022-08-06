@@ -33,6 +33,5 @@ Supervised Learning- Logistic Regression- binary result Delayed/Not delayed
     4) Validate the model with accuracy_score().
 
  
-Tableau Dashboard:<br>
-https://public.tableau.com/views/AirlineDelays-DataVisualization/Airinewithmostdelayedflight?:language=en-US&:display_count=n&:origin=viz_share_link <br>
+https://docs.google.com/document/d/1wDWFbGyySyxjukZ4hM_MSWp8Lho7dYGGaTqHGtxpgMM/edit?usp=sharing
 
