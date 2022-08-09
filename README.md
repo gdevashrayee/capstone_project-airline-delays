@@ -1,6 +1,6 @@
 # Capstone_Project-Airline-delays
 
-##Table of Contents
+## Table of Contents
 * [Project Overview](#project-overview)
 * [Purpose and Problem Statement](#purpose-and-problem-statement)
 * [Dataset Details](#dataset-details)
@@ -20,7 +20,7 @@ The purpose of this project is to thoroughly analyse the historic data, gain val
 
 Flight prediction is crucial during the decision-making process for all players of commercial aviation.By conducting an analysis of flight times and metrics regarding airlines, day of travel, and airport arrivals/departures we can predict what flights are more likely to experience delays.
 
-##Dataset Details
+## Dataset Details
 The dataset used for this project was obtained from Kaggle.This dataset tracks the performance of domestiic flights within United States. It covers extensive airline, weather, airport, timetables, and other related details for flight operations in 2019.
 
 **Source Link**<br />
@@ -28,11 +28,11 @@ https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations
 
 Before we began the process of training the models, predicting outcomes and building visualizations, we performed some pre-processing steps on the dataset to clean it such as removing null values, handling any missing values, formatting dates,required feature selection,dropping irrelevant values, formatting datatypes and finally joining aw datasets into one master set of data, using the below relationship diagram.
 
-##Project Database Design
+## Project Database Design
 
 ![ERD](images/img_1.png)
 
-##Technologies Used
+## Technologies Used
 * Python
 * Pandas
 * Numpy
@@ -42,14 +42,14 @@ Before we began the process of training the models, predicting outcomes and buil
 * Tableau
 * Google Slides
 
-##Machine Learning Models and Findings
-###Models Tested: <br />
-####Supervised Learning <br />
+## Machine Learning Models and Findings
+### Models Tested: <br />
+#### Supervised Learning <br />
 * Logistic Regression Model
 * Balanced Random Forest Classifier
 * Easy Ensemble AdaBoost Classifier
 
-###Findings:<br />
+### Findings:<br />
 
 **Logistic Regression Model**<br />
 
@@ -96,7 +96,7 @@ The precision score for no delay (denoted by 0) is 90%. This means when the mode
 
 The F1 score (harmonic mean) of the no delay and delay is 75% and 40%, respectively.  This suggests the model handles prediction for no delay better than delay.<br /> 
 
-##Results of exploratory data analysis
+## Results of exploratory data analysis
 Below are some questions that have been answered using visual representation of our data.
 
 **1. Which airline has the most delayed flights?**<br /> 
@@ -136,12 +136,12 @@ Overall, the busiest airports and busiest weekdays have the most amount of delay
 
 The Chicago O'Hare airport had the most overall flight delays and had the second most flights in total. Atlanta Hartfield Jackson had the most flights of all the listed airports and had the third most flight delays. Minneapolis St. Paul airport had the least amount of flights and flight delays of all the listed airports.<br />  
 
-##Challenges
+## Challenges
 One of the biggest challenge for us as the sheer size of the dataset, as eve with just 1 year worth of data, it amounted to over a million rows. The key challenge of this was the amount of time taken to run all combinations across multiple folds, which ultimately caused the codes and files to breakdown. This drastically slowed down our progress and our ability to utilize more data to garner better results.<br /> 
 
 Another challenge with the dataset we worked with was that there was scattered information about weather that we could use for our analysis and modeling. There were many values and columns that were redundant and were removed.
 
-##Reflection and Next Steps
+## Reflection and Next Steps
 The current dataset solely deals with the month of January in the year of 2019.Given more time, we would include all 12 months worth of data for our prediction and analysis.<br />  
 
 There is a huge scope for future work some of which is identified below:<br />  
