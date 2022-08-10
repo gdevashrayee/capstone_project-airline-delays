@@ -13,7 +13,7 @@
 * [Contributors](#contributors)
 
 ## Project Overview
-One of the most recognisable performance metrics of any transportation system is a delay. Notably, those involved in commercial aviation define delay as the amount of time that an aircraft is running late or postponed. Authorities in charge of national regulatory oversight have a wide range of indications relating to tolerance limits for aircraft delays. In the context of air transportation networks, flight delays are undoubtedly an important topic. Every year approximately 25-30% of flights are delayed, costing passengers and the operations approximately more than $28 billion in money and their time.
+One of the most recognisable performance metrics of any transportation system is a delay. Notably, those involved in commercial aviation define delay as the amount of time that an aircraft is running late or postponed. Authorities in charge of national regulatory oversight have a wide range of indications relating to tolerance limits for aircraft delays. In the context of air transportation networks, flight delays are undoubtedly an important topic. Every year approximately 25-30% of flights are delayed, costing passengers and the operations approximately $36 billion in money and their time.
 
 ## Purpose and Problem Statement
 The purpose of this project is to thoroughly analyse the historic data, gain valuable insights, experiment with the input features to see how the prediction accuracy varies, and contribute to the identification of solutions based on the results.
