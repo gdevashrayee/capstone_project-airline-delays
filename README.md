@@ -13,20 +13,20 @@
 * [Contributors](#contributors)
 
 ## Project Overview
-One of the most recognisable performance metrics of any transportation system is delay. Notably, those involved in commercial aviation define delay as the amount of time that an aircraft is running late or postponed.Authorities in charge of national regulatory oversight have a wide range of indications relating to tolerance limits for aircraft delays. In the context of air transportation networks, flight delays are undoubtedly an important topic.Every year approximately 25-30% of flights are delayed, costing passengers and the operations approximately more than $28 billion in money and their time.This indicates how relevant this indicator is and how it affects no matter the scale of airline meshes.
+One of the most recognisable performance metrics of any transportation system is a delay. Notably, those involved in commercial aviation define delay as the amount of time that an aircraft is running late or postponed. Authorities in charge of national regulatory oversight have a wide range of indications relating to tolerance limits for aircraft delays. In the context of air transportation networks, flight delays are undoubtedly an important topic. Every year approximately 25-30% of flights are delayed, costing passengers and the operations approximately more than $28 billion in money and their time.
 
 ## Purpose and Problem Statement
 The purpose of this project is to thoroughly analyse the historic data, gain valuable insights, experiment with the input features to see how the prediction accuracy varies, and contribute to the identification of solutions based on the results.
 
-Flight prediction is crucial during the decision-making process for all players of commercial aviation.By conducting an analysis of flight times and metrics regarding airlines, day of travel, and airport arrivals/departures we can predict what flights are more likely to experience delays.
+Flight prediction is crucial during the decision-making process for all players of commercial aviation. By conducting an analysis of flight times and metrics regarding airlines, day of travel, and airport arrivals/departures we can predict what flights are more likely to experience delays.
 
 ## Dataset Details
-The dataset used for this project was obtained from Kaggle.This dataset tracks the performance of domestiic flights within United States. It covers extensive airline, weather, airport, timetables, and other related details for flight operations in 2019.
+The dataset used for this project was obtained from Kaggle. This dataset tracks the performance of domestic flights within United States. It covers extensive airline, weather, airport, timetables, and other related details for flight operations in 2019.
 
 **Source Link**<br />
 https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations
 
-Before we began the process of training the models, predicting outcomes and building visualizations, we performed some pre-processing steps on the dataset to clean it such as removing null values, handling any missing values, formatting dates,required feature selection,dropping irrelevant values, formatting datatypes and finally joining aw datasets into one master set of data, using the below relationship diagram.
+Before we began the process of training the models, predicting outcomes and building visualizations, we performed some pre-processing steps on the dataset to clean it such as removing null values, handling any missing values, formatting dates, required feature selection, dropping irrelevant values, formatting datatypes and finally joining all datasets into one master set of data, using the below relationship diagram.
 
 ## Project Database Design
 
@@ -61,9 +61,9 @@ The Logistic Regression Model is used to predict whether a flight will be delaye
 
 **The accuracy score of the model is 82.4% which means the prediction power is decent.** <br /> 
 
-The precision score for no delay (denoted by 0) is 83%. This means when the model predicts the flight will not delay, it is correct 83% of the time.  The precision score for delay (denoted by 1) is 67%, which means the prediction power is not as good as no delay, but it is still decent.<br />  
+The precision score for no delay (denoted by 0) is 83%. This means when the model predicts the flight will not delay, it is correct 83% of the time. The precision score for delay (denoted by 1) is 67%, which means the prediction power is not as good as no delay, but it is still decent.<br />  
 
-The F1 score (harmonic mean) of the no delay and delay is 90% and 0.05%, respectively.  This suggests the model handles prediction for no delay very well, but a different story for prediction for delay.<br />
+The F1 score (harmonic mean) of the no delay and delay is 90% and 0.05%, respectively. This suggests the model handles prediction for no delay very well, but a different story for prediction for delay.<br />
 
 Compared to the ability to predict no delay, the ability to flag potential delay is more important. More data could be introduced in future to better train the Logistic Regression Model.<br />
 
@@ -78,9 +78,9 @@ The Balanced Random Forest Classifier Model is adopted to test if this will impr
 
 **The accuracy score of the model is 71.5%, which means the prediction power is worse than the Logistic Regression Model.**<br />   
 
-The precision score for no delay (denoted by 0) is 91%. This means when the model predicts the flight will not delay, it is correct majority of the time.  However, the precision score for delay (denoted by 1) is on the lower end (34%), and that means the model is not very good at predicting if the flight will delay (around one-third of the predictions are correct).<br /> 
+The precision score for no delay (denoted by 0) is 91%. This means when the model predicts the flight will not delay, it is correct majority of the time. However, the precision score for delay (denoted by 1) is on the lower end (34%), and that means the model is not very good at predicting if the flight will delay (around one-third of the predictions are correct).<br /> 
 
-The F1 score (harmonic mean) of the no-delay and delay is 81% and 45%, respectively.  This suggests the model handles prediction for no-delay better than delay.  The F1 score of this model is better than the Logistic Regression Model and the Easy Ensemble AdaBoost Classifier Model.<br /> 
+The F1 score (harmonic mean) of the no-delay and delay is 81% and 45%, respectively. This suggests the model handles prediction for no-delay better than delay. The F1 score of this model is better than the Logistic Regression Model and the Easy Ensemble AdaBoost Classifier Model.<br /> 
 
 
 **Easy Ensemble AdaBoost Classifier**<br />
@@ -90,11 +90,11 @@ The Easy Ensemble AdaBoost Classifier Model is also adopted to improve the predi
 
 ![ML6](images/img_7.png)
 
-**The accuracy score of this model is 64.9%, which means the prediction power is not satisfactory.  The accuracy score for this model is the lowest among the three.**<br /> 
+**The accuracy score of this model is 64.9%, which means the prediction power is not satisfactory. The accuracy score for this model is the lowest among the three.**<br /> 
 
-The precision score for no delay (denoted by 0) is 90%. This means when the model predicts the flight will not delay, it is correct most of the time (90%).  However, the precision score for delay (denoted by 1) is on the lower end (29%), and that means the model is not very good at predicting if the flight will delay (again around one-third of the predictions are correct).<br /> 
+The precision score for no delay (denoted by 0) is 90%. This means when the model predicts the flight will not delay, it is correct most of the time (90%). However, the precision score for delay (denoted by 1) is on the lower end (29%), and that means the model is not very good at predicting if the flight will delay (again around one-third of the predictions are correct).<br /> 
 
-The F1 score (harmonic mean) of the no delay and delay is 75% and 40%, respectively.  This suggests the model handles prediction for no delay better than delay.<br /> 
+The F1 score (harmonic mean) of the no delay and delay is 75% and 40%, respectively. This suggests the model handles prediction for no delay better than delay.<br /> 
 
 ## Results of exploratory data analysis
 Below are some questions that have been answered using visual representation of our data.
@@ -137,14 +137,14 @@ Overall, the busiest airports and busiest weekdays have the most amount of delay
 The Chicago O'Hare airport had the most overall flight delays and had the second most flights in total. Atlanta Hartfield Jackson had the most flights of all the listed airports and had the third most flight delays. Minneapolis St. Paul airport had the least amount of flights and flight delays of all the listed airports.<br />  
 
 ## Challenges
-One of the biggest challenge for us as the sheer size of the dataset, as eve with just 1 year worth of data, it amounted to over a million rows. The key challenge of this was the amount of time taken to run all combinations across multiple folds, which ultimately caused the codes and files to breakdown. This drastically slowed down our progress and our ability to utilize more data to garner better results.<br /> 
+One of the biggest challenge for us as the sheer size of the dataset, as even with just 1 year worth of data, it amounted to over a million rows. The key challenge of this was the amount of time taken to run all combinations across multiple folds, which ultimately caused the codes and files to breakdown. This drastically slowed down our progress and our ability to utilize more data to garner better results.<br /> 
 
-Another challenge with the dataset we worked with was that there was scattered information about weather that we could use for our analysis and modeling. There were many values and columns that were redundant and were removed.
+Another challenge with the dataset we worked with was that there was scattered information about weather that we could not use efficiently and as planned for our analysis and modeling. There were many values and columns that were redundant and were removed.
 
 ## Reflection and Next Steps
-The current dataset solely deals with the month of January in the year of 2019.Given more time, we would include all 12 months worth of data for our prediction and analysis.<br />  
+The current dataset solely deals with the month of January in the year of 2019. Given more time, we would include all 12 months worth of data for our prediction and analysis.<br />  
 
-There is a huge scope for future work some of which is identified below:<br />  
+There is a huge scope for future work, some of which is identified below:<br />  
 
 - Using additional datasets to integrate other routes, international flights,more months etc.<br />  
 - Performing additional exploratory data analysis to include items such as but not limited to time series analysis, correlation analysis,weather conditions impact analysis, national holiday's impacting the delays etc.
